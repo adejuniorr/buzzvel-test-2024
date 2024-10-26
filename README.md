@@ -1,11 +1,6 @@
-# React + TypeScript + Vite
+# Soller - Get the Sun to Power Your Home
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a desktop/mobile web application developed for a test in Buzzvel. The design was provided in a Figma template and the site developed in TypeScript + React.
 
 ## Expanding the ESLint configuration
 
