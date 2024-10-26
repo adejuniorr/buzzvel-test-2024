@@ -1,3 +1,5 @@
+import { FiArrowRight, FiHeadphones } from "react-icons/fi";
+
 function App() {
   return (
     <>
@@ -22,14 +24,15 @@ function App() {
           </nav>
         </div>
         <div className="hidden lg:flex items-center gap-8">
-          <a href="#" className="font-medium">
+          <a href="#" className="font-medium text-blue flex gap-2 items-center">
+            <FiHeadphones />
             555 818 282
           </a>
           <button
             type="button"
-            className="border rounded-full px-[24px] py-[20px] w-[22vw] max-w-60"
+            className="border-2 border-purple text-purple hover:bg-purple hover:text-yellow hover:shadow-md hover:shadow-gray-400 font-bold rounded-full px-[24px] py-[12px] w-[22vw] max-w-60 flex items-center justify-around"
           >
-            Request a Quote
+            Request a Quote <FiArrowRight />
           </button>
         </div>
       </header>
